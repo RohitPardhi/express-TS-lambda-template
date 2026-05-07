@@ -328,6 +328,3 @@ my-lambda-app/
 | `npm run dev` | Start local dev server with hot reload |
 | `npm run build` | Compile TS to JS in `/dist` |
 | `npm start` | Run compiled build locally |
-| `npm run lint` | Check for lint errors |
-| `zip -r function.zip lambda-package/` | Package for Lambda deployment |
-| `aws lambda update-function-code ...` | Deploy zip to Lambda |
