@@ -4,7 +4,6 @@
 - Node.js installed (v18+ recommended)
 - npm or yarn
 - AWS CLI configured (`aws configure`)
-- A code editor (VS Code recommended)
 
 ---
 
