@@ -138,7 +138,7 @@ Create `nodemon.json` in the root:
   "watch": ["src"],
   "ext": "ts",
   "ignore": ["src/**/*.spec.ts"],
-  "exec": "ts-node src/index.ts"
+  "exec": "tsx src/index.ts"
 }
 ```
 
