@@ -91,7 +91,7 @@ export default app;
 **`src/lambda.ts`** — Lambda entry point. This is what AWS invokes.
 
 ```typescript
-import serverlessExpress from '@vendia/serverless-express';
+import serverlessExpress from '@codegenie/serverless-express';
 import app from './app';
 
 export const handler = serverlessExpress({ app });
