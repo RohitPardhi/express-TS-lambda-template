@@ -20,10 +20,10 @@ npm init -y
 
 ```bash
 # Runtime dependencies
-npm install express dotenv aws-serverless-express @vendia/serverless-express
+npm install express dotenv aws-serverless-express cors zod @aws-sdk/client-s3
 
 # Dev dependencies
-npm install -D typescript ts-node nodemon @types/node @types/express @types/aws-lambda
+npm install -D typescript ts-node nodemon @types/node @types/express @types/aws-lambda @types/cors
 ```
 
 > **Note:** `@vendia/serverless-express` is the actively maintained fork of `aws-serverless-express`. It wraps your Express app so Lambda can invoke it like a regular HTTP handler.
